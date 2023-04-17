@@ -15,9 +15,9 @@ body {
 }
 .clock {
     background-color: #19376d;
-    height: 120px;
-    width: 500px;
-    line-height: 120px;
+    height: 80px;
+    width: 380px;
+    line-height: 80px;
     text-align: center;
     padding: 0, 5px;
     box-shadow: -3px -3px 7px rgba(17, 51, 40, 0.05),
@@ -25,7 +25,7 @@ body {
 }
 
 .clock .display {
-    font-size: 60px;
+    font-size: 50px;
     color: #a5d7e8;
     letter-spacing: 5px;
 }
