@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #0b2447;
+}
+body {
+    display: grid;
+    place-items: center;
+}
+.clock {
+    background-color: #19376d;
+    height: 120px;
+    width: 500px;
+    line-height: 120px;
+    text-align: center;
+    padding: 0, 5px;
+    box-shadow: -3px -3px 7px rgba(17, 51, 40, 0.05),
+        3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.clock .display {
+    font-size: 60px;
+    color: #a5d7e8;
+    letter-spacing: 5px;
+}
